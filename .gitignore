@@ -1,0 +1,40 @@
+# === Ignore image & video files ===
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# === Ignore OS files ===
+.DS_Store
+Thumbs.db
+
+# === Ignore Python cache & compiled files ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# === Ignore virtual environments ===
+venv/
+.venv/
+env/
+.env/
+
+# === Ignore PyInstaller build artifacts ===
+build/
+dist/
+*.spec
+
+# === Ignore log or temporary files ===
+*.log
+*.tmp
+
+# === Ignore resource backups ===
+resources/ffmpeg~*
